@@ -1,0 +1,40 @@
+
+  .wrapper {
+      $blue: blue;
+      span {
+        color: red;
+      }
+       h1 {
+        color: $blue;
+      }
+     position:absolute;
+     border-radius: 50%;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+     min-height: 20%;
+     min-width: 20%;
+     transform: translate(-50%, -50%);
+     .wrapper2 {
+       border-radius: 50%;
+       font-size: 2.5em; 
+       min-width: 20%;
+       .flex {
+         display: flex;
+         align-self:center;
+         justify-content: space-evenly
+       }
+       .clicker {
+         text-decoration: none;
+         color: $blue;
+         
+       }
+       .small {
+         font-size: .3em;
+         text-transform:none;
+       }   
+     }
+  }
+  
+  
+
